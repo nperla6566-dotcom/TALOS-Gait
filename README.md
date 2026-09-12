@@ -66,6 +66,8 @@ Bilateral temporal asymmetry is calculated as:
 
 ### Gait Variability & Consistency
 
+<img width="812" height="161" alt="image" src="https://github.com/user-attachments/assets/19a3ecf3-1376-4dff-a97f-d88a68644734" />
+
 Within-trial temporal variability is summarized using the coefficient of variation:
 
 `CV (%) = SD / Mean × 100`
@@ -112,6 +114,8 @@ The synchronized display provides a trial-level view of segmental movement throu
 
 
 ### Cycle-Level Data
+
+<img width="812" height="365" alt="image" src="https://github.com/user-attachments/assets/3086125d-d70b-4bf7-b12d-fd076603c08d" />
 
 Researchers can inspect the individual gait cycles underlying the summary statistics.
 
@@ -188,7 +192,9 @@ This testing represents **software verification rather than clinical validation*
 
 <img width="759" height="314" alt="image" src="https://github.com/user-attachments/assets/294c8da2-60b2-4556-b870-ad59859bb723" />
 
-![TALOS Interface](talos-image.png)
+<img width="309" height="386" alt="image" src="https://github.com/user-attachments/assets/eb7cb38c-fe3b-4cda-9786-0a48afb49a8a" />
+
+
 
 
 ## Dataset
