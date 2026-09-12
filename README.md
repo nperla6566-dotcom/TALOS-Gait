@@ -7,7 +7,7 @@ The application transforms annotated multi-sensor gait recordings into standardi
 
 TALOS was developed as an independent computational research project exploring how wearable sensor data can be transformed into interpretable measures of human gait across orthopedic and healthy populations.
 
----
+
 
 ## Overview
 
@@ -43,7 +43,7 @@ TALOS provides a streamlined workflow:
 
 The application is designed to preserve transparency between the original gait-event annotations and the measurements presented to the researcher.
 
----
+
 
 ## Features
 
@@ -62,7 +62,7 @@ Bilateral temporal asymmetry is calculated as:
 
 `100 × |L − R| / ((|L| + |R|) / 2)`
 
----
+
 
 ### Gait Variability & Consistency
 
@@ -79,7 +79,7 @@ TALOS reports:
 
 These measurements describe within-trial timing consistency and are not interpreted as diagnostic thresholds.
 
----
+
 
 ### Bilateral Gait-Event Visualization
 
@@ -96,7 +96,7 @@ The visualization allows researchers to inspect the temporal relationship betwee
 
 Straight walking before and after the U-turn is analyzed separately so that cycles spanning the turn are not included in straight-walking temporal measurements.
 
----
+
 
 ### Segmental IMU Motion
 
@@ -109,7 +109,7 @@ Synchronized movement signals can be visualized across four wearable sensor loca
 
 The synchronized display provides a trial-level view of segmental movement throughout the walking protocol.
 
----
+
 
 ### Cycle-Level Data
 
@@ -126,7 +126,7 @@ Cycle-level outputs include:
 
 This allows summary measurements to be traced back to the individual annotated gait cycles from which they were calculated.
 
----
+
 
 ### Quality Control
 
@@ -134,7 +134,7 @@ TALOS performs automated checks on uploaded trial data, including metadata struc
 
 The interface reports trial QC status before results are interpreted.
 
----
+
 
 ### Multipart Recording Support
 
@@ -142,13 +142,13 @@ Processed IMU recordings stored across multiple sequential files can be loaded t
 
 TALOS verifies compatible schemas and reconstructs a continuous recording before analysis.
 
----
+
 
 ### Trial Reports
 
 Trial-level results can be exported as a structured HTML report containing the primary temporal gait measurements and analysis information.
 
----
+
 
 ## Clinical Gait Cohorts
 
@@ -163,7 +163,7 @@ The software has been manually tested using multiple recordings representing:
 
 The analysis pipeline operates on gait-event annotations and IMU signals rather than using the pathology label to determine the calculations performed.
 
----
+
 
 ## Software Verification
 
@@ -182,15 +182,14 @@ TALOS was manually tested across multiple orthopedic and healthy gait recordings
 
 This testing represents **software verification rather than clinical validation**. TALOS has not been validated as a diagnostic or clinical decision-making system.
 
----
+
 
 ## Example
 
-![TALOS interface](images/talos_interface.png)
+<img width="759" height="314" alt="image" src="https://github.com/user-attachments/assets/294c8da2-60b2-4556-b870-ad59859bb723" />
 
-*Example TALOS trial analysis showing temporal gait measurements, gait variability, bilateral gait events, and synchronized segmental IMU signals.*
+![TALOS Interface](talos-image.png)
 
----
 
 ## Dataset
 
@@ -220,7 +219,7 @@ DOI: `10.6084/m9.figshare.28806086`
 
 TALOS is an independent project and is not affiliated with the creators of the original dataset.
 
----
+
 
 ## Built With
 
@@ -234,7 +233,7 @@ TALOS is an independent project and is not affiliated with the creators of the o
 - DT
 - stringr
 
----
+
 
 ## Running TALOS
 
@@ -264,7 +263,7 @@ Within TALOS, select **Load trial** and provide:
 
 The application will validate the inputs and generate the trial analysis automatically.
 
----
+
 
 ## Methodological Notes
 
@@ -278,7 +277,7 @@ Cycles are calculated independently within each straight-walking segment. Cycles
 
 Temporal measurements and variability statistics produced by TALOS are descriptive research outputs.
 
----
+
 
 ## Repository Structure
 
@@ -296,7 +295,7 @@ Temporal measurements and variability statistics produced by TALOS are descripti
     ├── LICENSE
     └── .gitignore
 
----
+
 
 ## Limitations
 
@@ -308,7 +307,7 @@ Measures of bilateral asymmetry and temporal variability should therefore be int
 
 Future work may include automated gait-event detection, systematic cohort-level validation, and evaluation using independent wearable gait datasets.
 
----
+
 
 ## Author
 
