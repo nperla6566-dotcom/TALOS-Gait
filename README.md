@@ -3,6 +3,8 @@
 
 **TALOS** is an R/Shiny research application for automated analysis and visualization of wearable inertial measurement unit (IMU) gait recordings.
 
+<img width="309" height="386" alt="image" src="https://github.com/user-attachments/assets/eb7cb38c-fe3b-4cda-9786-0a48afb49a8a" />
+
 The application transforms annotated multi-sensor gait recordings into standardized bilateral temporal gait measurements, gait variability metrics, synchronized segmental-motion visualizations, cycle-level data, quality-control information, and reproducible trial reports.
 
 TALOS was developed as an independent computational research project exploring how wearable sensor data can be transformed into interpretable measures of human gait across orthopedic and healthy populations.
@@ -191,10 +193,6 @@ This testing represents **software verification rather than clinical validation*
 ## Example
 
 <img width="759" height="314" alt="image" src="https://github.com/user-attachments/assets/294c8da2-60b2-4556-b870-ad59859bb723" />
-
-<img width="309" height="386" alt="image" src="https://github.com/user-attachments/assets/eb7cb38c-fe3b-4cda-9786-0a48afb49a8a" />
-
-
 
 
 ## Dataset
